@@ -1,0 +1,10 @@
+img.logo {
+	width: 175px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nav {
+	background-color: #000;
+}
