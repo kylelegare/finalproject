@@ -336,7 +336,7 @@ position: fixed;
     width: 100%;
     /* Additional styles */
 
-background-color: rgba(4, 16, 181, 1.0);
+background-color: rgba(0, 0, 0, 0.3);
     /* Translate -100% to move off screen */
 
 -webkit-transform: translateY(-100%);
