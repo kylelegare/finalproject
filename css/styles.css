@@ -115,7 +115,7 @@ font-family: Lora, Arial, Sans-serif;
      
       top: 100%;
       width: 100%;
-      height: 600px;
+      height: 100%;
       background: #FFF;
       padding: 50px;
       color: ;
@@ -127,7 +127,7 @@ font-family: Lora, Arial, Sans-serif;
 .content-second {
       top: 100%;
       width: 100%;
-      height: 600px;
+      height: 100%;
       background: #333;
       padding: 50px;
       color: white;
@@ -142,7 +142,7 @@ font-family: Lora, Arial, Sans-serif;
 .content-third {
       top: 100%;
       width: 100%;
-      height: 600px;
+      height: 100%;
       background: #084d8f;
       padding: 50px;
       color: white;
@@ -165,7 +165,7 @@ color: #ffab4f;
 }
 
     .layer-background {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
     top: 0;
     left: 0;
