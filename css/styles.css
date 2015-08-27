@@ -1,8 +1,9 @@
-body, html {
+    body, html {
     height: 100%;
     width: 100%;
     position: relative;
 }
+
 header {
     z-index: 1;
     position: absolute;
@@ -10,12 +11,14 @@ header {
     width: 100%;
     word-spacing: 10px;
 }
+
 nav ul {
     list-style: none;
     text-align: center;
     padding: 0;
     margin: 0;
 }
+
 nav li {
     font-family: 'Oswald', sans-serif;
     font-size: 1.2em;
@@ -23,37 +26,44 @@ nav li {
     height: 40px;
     border-bottom: 1px solid #888;
 }
+
 nav a {
     text-decoration: none;
     color: #FFF;
     display: block;
     transition: .3s background-color;
 }
+
 nav a:hover {
     background-color: none;
     color: #ffab4f;
-}d
-nav a.active {
+}
+
+d nav a.active {
     background-color: none;
     /* color: #ffab4f; */
     cursor: default;
 }
+
+
 /*@media screen and (min-width: 600px) {*/
 
 nav li {
     /*width: 120px;*/
-
-border-bottom: none;
+    border-bottom: none;
     height: 50px;
     line-height: 50px;
     font-size: 1.4em;
 }
+
 nav li {
     display: inline-block;
     margin-right: -4px;
 }
 
+
 /* Hero Image Area */
+
 .hero-image {
     position: absolute;
     width: 100%;
@@ -65,11 +75,13 @@ nav li {
     margin-top: 0px;
     background-position: top center;
 }
+
 .hero-container {
     height: 100%;
     /*margin-top: -550px;*/
     z-index: 0;
 }
+
 .hero-text h2 {
     font-family: 'montserrat_bold', arial, sans-serif font-weight: 900;
     color: white;
@@ -106,13 +118,16 @@ nav li {
     height: 100%;
     padding-bottom: 50px;
 }
+
 hr {
     border-top: 1px solid #8c8b8b;
     text-align: center;
     width: 40%;
 }
 
+
 /* First Content Area */
+
 .content-first {
     width: 100%;
     background: #FFF;
@@ -121,26 +136,31 @@ hr {
 }
 
 .block-text {
-       text-align: center;  
-  }
+    text-align: center;
+}
+
+
 /*
 .slide {
 height: 100%;
 }
 */
 
-.fa-stack-1x  {
+.fa-stack-1x {
     color: #ffab4f;
 }
 
 .fa-stack {
     color: #084d8f;
 }
+
 .headline-row {
     text-align: center;
 }
 
+
 /* Second Content Area */
+
 .content-second {
     width: 100%;
     background: #333;
@@ -151,29 +171,34 @@ height: 100%;
     background-size: cover;
     background-attachment: fixed;
 }
+
 .content-second h3 {
     font-size: 33px;
     font-style: italic;
-    }
+}
+
 .content-second strong {
     color: #084d8f;
 }
 
 
 /* Third Content Area */
+
 .content-third strong {
     color: #ffab4f;
 }
+
 .content-third h2 {
     text-align: center;
     color: #ffab4f;
 }
+
 .block-text {
     text-align: center;
-
-    line-height: 1.6em; 
+    line-height: 1.6em;
     font-family: 'opensanslight'
 }
+
 .content-third {
     width: 100%;
     background: #084d8f;
@@ -182,7 +207,9 @@ height: 100%;
     padding-top: 150px;
 }
 
+
 /*  Footer */
+
 .footer-distributed {
     background-color: #000;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -192,24 +219,32 @@ height: 100%;
     font: bold 16px sans-serif;
     padding: 55px 50px;
 }
+
 .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
     display: inline-block;
     vertical-align: top;
 }
+
+
 /* Footer left */
 
 .footer-distributed .footer-left {
     width: 40%;
 }
+
+
 /* The company logo */
 
 .footer-distributed h3 {
     color: #ffffff;
     font: normal 36px margin: 0;
 }
+
 .footer-distributed h3 span {
     color: #5383d3;
 }
+
+
 /* Footer links */
 
 .footer-distributed .footer-links {
@@ -217,23 +252,28 @@ height: 100%;
     margin: 20px 0 12px;
     padding: 0;
 }
+
 .footer-distributed .footer-links a {
     display: inline-block;
     line-height: 1.8;
     text-decoration: none;
     color: inherit;
 }
+
 .footer-distributed .footer-company-name {
     color: #8f9296;
     font-size: 14px;
     font-weight: normal;
     margin: 0;
 }
+
+
 /* Footer Center */
 
 .footer-distributed .footer-center {
     width: 35%;
 }
+
 .footer-distributed .footer-center i {
     background-color: #33383b;
     color: #ffffff;
@@ -243,38 +283,56 @@ height: 100%;
     border-radius: 50%;
     text-align: center;
     line-height: 42px;
-    margin: 10px 15px;
+    margin: 0 15px;
     vertical-align: middle;
 }
+
 footer {
     position: relative;
 }
+
+.footer-center .centered-icons {
+    width: 240px;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 17px;
+}
+.footer-center i {
+    margin-right: 5px;
+}
+
 .footer-distributed .footer-center i.fa-envelope {
     font-size: 17px;
     line-height: 38px;
 }
+
 .footer-distributed .footer-center p {
     display: inline-block;
     color: #ffffff;
     vertical-align: middle;
     margin: 0;
 }
+
 .footer-distributed .footer-center p span {
     display: block;
     font-weight: normal;
     font-size: 14px;
     line-height: 2;
 }
+
 .footer-distributed .footer-center p a {
     color: #5383d3;
     text-decoration: none;
     ;
 }
+
+
 /* Footer Right */
 
 .footer-distributed .footer-right {
     width: 20%;
 }
+
 .footer-distributed .footer-company-about {
     line-height: 20px;
     color: #92999f;
@@ -282,6 +340,7 @@ footer {
     font-weight: normal;
     margin: 0;
 }
+
 .footer-distributed .footer-company-about span {
     display: block;
     color: #ffffff;
@@ -289,9 +348,11 @@ footer {
     font-weight: bold;
     margin-bottom: 20px;
 }
+
 .footer-distributed .footer-icons {
     margin-top: 25px;
 }
+
 .footer-distributed .footer-icons a {
     display: inline-block;
     width: 35px;
@@ -306,26 +367,30 @@ footer {
     margin-right: 3px;
     margin-bottom: 5px;
 }
+
+
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 880px) {
     .footer-distributed {
         font: bold 14px sans-serif;
-   }
-   .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
-       display: block;
-       width: 100%;
-       margin-bottom: 40px;
-       text-align: center;
-  }
-  .footer-distributed .footer-center i {
-      margin-left: 0;
- }
-
+    }
+    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
 }
+
+
 /*----------------------------------------------------------------------------*\
   Headhesive Specific Styles
 /*----------------------------------------------------------------------------*/
+
 
 /**
  * Headhesive element clone
@@ -341,8 +406,7 @@ footer {
 
 .banner--clone {
     /* Required styles */
-
-position: fixed;
+    position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
@@ -351,19 +415,18 @@ position: fixed;
     center;
     width: 100%;
     /* Additional styles */
-
-background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
     /* Translate -100% to move off screen */
-
--webkit-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
     -ms-transform: translateY(-100%);
     transform: translateY(-100%);
     /* Animations */
-
--webkit-transition: all 600ms ease-in-out;
+    -webkit-transition: all 600ms ease-in-out;
     -moz-transition: all 600ms ease-in-out;
     transition: all 600ms ease-in-out;
 }
+
+
 /**
  * Headhesive stick
  * > `stick` class for the cloned element:
@@ -378,11 +441,12 @@ background-color: rgba(0, 0, 0, 0.3);
 
 .banner--stick {
     /* Translate back to 0%; */
-
--webkit-transform: translateY(0%);
+    -webkit-transform: translateY(0%);
     -ms-transform: translateY(0%);
     transform: translateY(0%);
 }
+
+
 /**
  * Headhesive unstick
  * > `unstick` class for the cloned element:
@@ -399,7 +463,9 @@ background-color: rgba(0, 0, 0, 0.3);
     /* Not required to use, but could be useful to have */
 }
 
+
 /* Media Query Area */
+
 @media screen and (min-width: 600px) {
     .content-second h3 {
         font-size: 33px;
@@ -408,7 +474,4 @@ background-color: rgba(0, 0, 0, 0.3);
         padding-left: 140px;
         padding-right: 140px;
         line-height: 1.6em;
-
-
-
-}
+    }
